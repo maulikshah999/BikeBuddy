@@ -14,7 +14,7 @@ public class BikeRouteActivity extends FragmentActivity implements OnMapReadyCal
 
     private GoogleMap mMap;
 
-    // Vimal Ashok
+    // Vimal Asohan
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
