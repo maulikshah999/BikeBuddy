@@ -6,17 +6,20 @@ package com.example.sfldpguser_24.model;
 //@XmlRootElement(name = "bikes")
 public class Bikes {
         private String nameOfStation;
-   // private String free_bikes = "";
-//    private String id;
-//    private String latitude;
-//    private String longitude;
+        private Integer latitude;
+        private Integer longitude;
+        private Integer typeResult;
       public Bikes() {
       }
     // getter
 
-    public Bikes(String nameOfStation) {
+    public Bikes(String nameOfStation,Integer latitude, Integer longitude, Integer typeResult ) {
         super();
         this.nameOfStation = nameOfStation;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.typeResult = typeResult;
+
     }
 
     /**
@@ -25,14 +28,30 @@ public class Bikes {
     public String nameOfStation() {
         return nameOfStation;
     }
-
+    public Integer latitude() {
+        return latitude;
+    }
+    public Integer longitude() {
+        return longitude;
+    }
+    public Integer typeResult() {
+        return typeResult;
+    }
     /**
      * @param nameOfStation the empty_slots to set
      */
     public void setnameOfStation(String nameOfStation) {
         this.nameOfStation = nameOfStation;
     }
-
+    public void setlatitude(Integer latitude) {
+        this.latitude = latitude;
+    }
+    public void setLongitude(Integer longitude) {
+        this.longitude = longitude;
+    }
+    public void settypeResult(Integer typeResult) {
+        this.typeResult = typeResult;
+    }
 //    /**
 //     * @return the name
 //     */
