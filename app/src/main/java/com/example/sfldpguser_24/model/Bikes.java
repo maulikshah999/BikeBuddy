@@ -1,19 +1,21 @@
 package com.example.sfldpguser_24.model;
 
+import java.math.BigDecimal;
+
 /**
  * Created by SFLDPGUSER-24 on 3/2/2018.
  */
 //@XmlRootElement(name = "bikes")
 public class Bikes {
         private String nameOfStation;
-        private Integer latitude;
-        private Integer longitude;
+        private BigDecimal latitude;
+        private BigDecimal longitude;
         private Integer typeResult;
       public Bikes() {
       }
     // getter
 
-    public Bikes(String nameOfStation,Integer latitude, Integer longitude, Integer typeResult ) {
+    public Bikes(String nameOfStation,BigDecimal latitude, BigDecimal longitude, Integer typeResult ) {
         super();
         this.nameOfStation = nameOfStation;
         this.latitude = latitude;
@@ -28,10 +30,10 @@ public class Bikes {
     public String nameOfStation() {
         return nameOfStation;
     }
-    public Integer latitude() {
+    public BigDecimal latitude() {
         return latitude;
     }
-    public Integer longitude() {
+    public BigDecimal longitude() {
         return longitude;
     }
     public Integer typeResult() {
@@ -43,10 +45,10 @@ public class Bikes {
     public void setnameOfStation(String nameOfStation) {
         this.nameOfStation = nameOfStation;
     }
-    public void setlatitude(Integer latitude) {
+    public void setlatitude(BigDecimal latitude) {
         this.latitude = latitude;
     }
-    public void setLongitude(Integer longitude) {
+    public void setLongitude(BigDecimal longitude) {
         this.longitude = longitude;
     }
     public void settypeResult(Integer typeResult) {
