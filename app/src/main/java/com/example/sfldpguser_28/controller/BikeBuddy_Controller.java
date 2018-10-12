@@ -1,8 +1,5 @@
-package com.example.sfldpguser_24.controller;
+package com.example.sfldpguser_28.controller;
 
-/**
- * Created by SFLDPGUSER-24 on 3/2/2018.
- */
 
 public class BikeBuddy_Controller {
 

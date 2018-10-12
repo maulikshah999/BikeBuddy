@@ -1,4 +1,4 @@
-package com.example.sfldpguser_24.bikebuddy;
+package com.example.sfldpguser_28.bikebuddy;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -14,14 +14,13 @@ public class BikeRouteActivity extends FragmentActivity implements OnMapReadyCal
 
     private GoogleMap mMap;
 
-    // Vimal Asohan
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bike_route);
+        setContentView(com.example.sfldpguser_28.bikebuddy.R.layout.activity_bike_route);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(com.example.sfldpguser_28.bikebuddy.R.id.map);
         mapFragment.getMapAsync(this);
     }
 

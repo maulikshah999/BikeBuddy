@@ -1,7 +1,7 @@
-package com.example.sfldpguser_24.model;
+package com.example.sfldpguser_28.model;
 
 /**
- * Created by SFLDPGUSER-24 on 3/2/2018.
+ * Created by SFLDPGUSER-28 on 10/12/2018.
  */
 //@XmlRootElement(name = "bikes")
 public class Bikes {
